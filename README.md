@@ -19,7 +19,7 @@ Part of the [xLUNGS](https://xlungs.mi2.ai) project. This directory contains cod
 
 ## Data
 
-The preprocessed **TLOS** dataset in the tabular form is available in [data](/data). Raw X-ray data including images and radiology reports cannot be openly shared due to privacy concerns. For inquires please write at [przemyslaw.biecek@pw.edu.pl](mailto:przemyslaw.biecek@pw.edu.pl).
+The preprocessed **TLOS** dataset in the tabular form is available in [data](/data). Raw X-ray data including images and radiology reports cannot be openly shared due to privacy concerns. For inquires please write at [xlungs@pw.edu.pl](mailto:xlungs@pw.edu.pl).
 
 ## Directories
 
