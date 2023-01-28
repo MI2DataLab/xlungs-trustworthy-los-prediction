@@ -1,6 +1,6 @@
 # xlungs-trustworthy-los-prediction
 
-This directory contains code and the **TLOS** dataset associated with the article
+Part of the [xLUNGS](https://xlungs.mi2.ai) project. This directory contains code and the **TLOS** dataset associated with the article
 
 > H. Baniecki, B. Sobieski, P. Bombiński, P. Szatkowski, P. Biecek. *Hospital Length of Stay Prediction Based on Multi-modal Data towards Trustworthy Human-AI Collaboration in Radiomics*. **In review**, 2023.
 
@@ -15,7 +15,7 @@ This directory contains code and the **TLOS** dataset associated with the articl
 }
 ```
 
-Part of the [xLUNGS](https://xlungs.mi2.ai) project.
+![](fig1.png)
 
 ## Directories
 
