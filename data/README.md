@@ -6,8 +6,10 @@ This directory contains Version 1 of the **TLOS** dataset. It is made available 
 
 ```
  @misc{tlos,
-    title = {{Hospital Length of Stay Prediction Based on Multi-modal Data towards Trustworthy Human-AI Collaboration in Radiomics}},
-    author = {Hubert Baniecki and Bartlomiej Sobieski and Przemysław Bombiński and Patryk Szatkowski and Przemysław Biecek},
+    title = {{Hospital Length of Stay Prediction Based on Multi-modal Data 
+              towards Trustworthy Human-AI Collaboration in Radiomics}},
+    author = {Hubert Baniecki and Bartlomiej Sobieski and Przemysław Bombiński 
+              and Patryk Szatkowski and Przemysław Biecek},
     note = {In review},
     year = {2023}
 }
