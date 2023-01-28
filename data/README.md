@@ -1,3 +1,14 @@
-This directory contains version 1 of the *TLOS* dataset. It's made available under the [CC-BY-NC-ND-4.0 license](LICENSE).
+This directory contains Version 1 of the **TLOS** dataset. It is made available under the [CC-BY-NC-ND-4.0 license](LICENSE).
 
- If you use this dataset, please cite it us 
+ If you use this data, please cite it as 
+
+ > H. Baniecki, B. Sobieski, P. Bombiński, P. Szatkowski, P. Biecek. *Hospital Length of Stay Prediction Based on Multi-modal Data towards Trustworthy Human-AI Collaboration in Radiomics*. **In review**, 2023.
+
+```
+ @misc{tlos,
+    title = {{Hospital Length of Stay Prediction Based on Multi-modal Data towards Trustworthy Human-AI Collaboration in Radiomics}},
+    author = {Hubert Baniecki and Bartłomiej Sobieski and Przemysław Bombiński and Patryk Szatkowski and Przemysław Biecek},
+    note = {In review},
+    year = {2023}
+}
+```
