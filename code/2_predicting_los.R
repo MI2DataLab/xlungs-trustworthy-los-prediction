@@ -1,3 +1,10 @@
+#-----------------------------------------------------------------------------------
+#:# DISCLAIMER: This code serves as an example of performing the described analysis.
+#:# tlos_v1.csv is less precise (due to anonymization) than the very similar dataset
+#:# used in original experiments, which will slightly impact the final results.
+#-----------------------------------------------------------------------------------
+
+
 df <- read.csv("../data/tlos_v1.csv")
 dim(df)
 colnames(df)

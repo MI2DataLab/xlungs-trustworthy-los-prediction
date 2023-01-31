@@ -1,3 +1,8 @@
+#-----------------------------------------------------------------------------------
+#:# DISCLAIMER: This code serves as an example of performing the described analysis.
+#-----------------------------------------------------------------------------------
+
+
 import pathlib
 from pathlib import Path
 
