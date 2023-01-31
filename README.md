@@ -19,7 +19,9 @@ Part of the [xLUNGS](https://xlungs.mi2.ai) project. This directory contains cod
 
 ## Data and code
 
-The preprocessed **TLOS** dataset in the tabular form is available in [data](/data) under the [CC-BY-NC-ND-4.0](data/LICENSE) license. Raw X-ray data including images and radiology reports cannot be openly shared due to privacy concerns. For inquires, please write at [xlungs@pw.edu.pl](mailto:xlungs@pw.edu.pl). Exemplary code for performing the described analysis is available in [code](/code) under the [MIT](code/LICENSE) license. It is accompanied by the key metadata checkpoints in [results](/results).
+The preprocessed **TLOS** dataset in the tabular form is available in [data](/data) under the [CC-BY-NC-ND-4.0](data/LICENSE) license. Raw X-ray data including images and radiology reports cannot be openly shared due to privacy concerns. For inquires, please write at [xlungs@pw.edu.pl](mailto:xlungs@pw.edu.pl). 
+
+Exemplary code for performing the described analysis is available in [code](/code) under the [MIT](code/LICENSE) license. It is accompanied by the key metadata checkpoints in [results](/results). For inquires, please write at [h.baniecki@uw.edu.pl](mailto:h.baniecki@uw.edu.pl).
 
 ## Dependencies
 
