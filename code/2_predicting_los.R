@@ -159,7 +159,8 @@ p_comparison <- grouped_ggbetweenstats(
   bf.message       = FALSE,
   p.adjust.method  = "bonferroni",
   xlab             = "Survival model", 
-  ylab             = "Measure value",
+  #ylab             = "Measure value",
+  ylab             = "",
   annotation.args  = list(title=paste0("Model benchmark using all features [",
                                        nrepeats,
                                        " repeats of ",
@@ -181,7 +182,7 @@ p_comparison <- grouped_ggbetweenstats(
 
 p_comparison
 
-ggsave(p_comparison, filename = "../results/model_comparison.png", width = 10, height = 4)
+ggsave(p_comparison, filename = "../results/model_comparison.pdf", width = 10, height = 4)
 
 p_bb <- grouped_ggbetweenstats(
   data             = scores %>% filter(learner_id == "GBDT"),
@@ -193,7 +194,9 @@ p_bb <- grouped_ggbetweenstats(
   # pairwise.display = "all",
   bf.message = FALSE,
   p.adjust.method = "bonferroni",
-  xlab="Feature set", ylab="Measure value",
+  xlab="Feature set", 
+  #ylab="Measure value",
+  ylab="",
   annotation.args = list(title=paste0("GBDT (black-box) performance on different feature sets [", 
                                       nrepeats,
                                       " repeats of ", 
@@ -212,7 +215,7 @@ p_bb <- grouped_ggbetweenstats(
 
 p_bb
 
-ggsave(p_bb, filename = "../results/bb_performance.png", width = 10, height = 5)
+ggsave(p_bb, filename = "../results/bb_performance.pdf", width = 10, height = 5)
 
 
 p_wb <- grouped_ggbetweenstats(
@@ -225,7 +228,9 @@ p_wb <- grouped_ggbetweenstats(
   # pairwise.display = "all",
   bf.message = FALSE,
   p.adjust.method = "bonferroni",
-  xlab="Feature set", ylab="Measure value",
+  xlab="Feature set", 
+  #ylab="Measure value",
+  ylab="",
   annotation.args = list(title=paste0("CoxPH (white-box) performance on different feature sets [", 
                                       nrepeats,
                                       " repeats of ", 
@@ -244,7 +249,7 @@ p_wb <- grouped_ggbetweenstats(
 
 p_wb
 
-ggsave(p_wb, filename = "../results/wb_performance.png", width = 10, height = 5)
+ggsave(p_wb, filename = "../results/wb_performance.pdf", width = 10, height = 5)
 
 
 # --- retrieve the p value for final model comparison

@@ -2,16 +2,16 @@
 
 Part of the [xLUNGS](https://xlungs.mi2.ai) project. This directory contains code and the **TLOS** dataset associated with the article
 
-> H. Baniecki, B. Sobieski, P. Bombiński, P. Szatkowski, P. Biecek. *Hospital Length of Stay Prediction Based on Multi-modal Data towards Trustworthy Human-AI Collaboration in Radiomics*. **In review**, 2023.
+> H. Baniecki, B. Sobieski, P. Bombiński, P. Szatkowski, P. Biecek. *Hospital Length of Stay Prediction Based on Multi-modal Data towards Trustworthy Human-AI Collaboration in Radiomics*. **International Conference on Artificial Intelligence in Medicine**, 2023.
 
 ```
- @misc{tlos,
-    title = {{Hospital Length of Stay Prediction Based on Multi-modal Data 
-              towards Trustworthy Human-AI Collaboration in Radiomics}},
-    author = {Hubert Baniecki and Bartlomiej Sobieski and Przemysław Bombiński 
-              and Patryk Szatkowski and Przemysław Biecek},
-    note = {In review},
-    year = {2023}
+ @inproceedings{baniecki2023hospital,
+    title     = {{Hospital Length of Stay Prediction Based on Multi-modal Data 
+                  towards Trustworthy Human-AI Collaboration in Radiomics}},
+    author    = {Hubert Baniecki and Bartlomiej Sobieski and Przemysław Bombiński 
+                 and Patryk Szatkowski and Przemysław Biecek},
+    booktitle = {International Conference on Artificial Intelligence in Medicine},
+    year      = {2023}
 }
 ```
 
@@ -36,4 +36,4 @@ The analysis was performed using the following software:
 
 ## Acknowledgements
 
-This work was financially supported by the NCBiR grant number `INFOSTRATEG-I/0022/2021-00`, and carried out with the support of the Laboratory of Bioinformatics and Computational Genomics and the High Performance Computing Center of the Faculty of Mathematics and Information Science, Warsaw University of Technology.
+This work was financially supported by the Polish National Center for Research and Development grant number `INFOSTRATEG-I/0022/2021-00`, and carried out with the support of the Laboratory of Bioinformatics and Computational Genomics and the High Performance Computing Center of the Faculty of Mathematics and Information Science, Warsaw University of Technology.
